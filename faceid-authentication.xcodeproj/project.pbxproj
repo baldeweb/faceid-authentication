@@ -23,19 +23,19 @@
 			containerPortal = BA738F43267E46DD00C5B3FE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BA738F4A267E46DD00C5B3FE;
-			remoteInfo = "alert-app";
+			remoteInfo = "faceid-authentication";
 		};
 		BA738F6D267E46E000C5B3FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BA738F43267E46DD00C5B3FE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BA738F4A267E46DD00C5B3FE;
-			remoteInfo = "alert-app";
+			remoteInfo = "faceid-authentication";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA738F4B267E46DD00C5B3FE /* alert-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alert-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA738F4B267E46DD00C5B3FE /* faceid-authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "faceid-authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA738F4E267E46DD00C5B3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA738F50267E46DD00C5B3FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA738F52267E46DD00C5B3FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		BA738F57267E46E000C5B3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA738F5A267E46E000C5B3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA738F5C267E46E000C5B3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA738F61267E46E000C5B3FE /* alert-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alert-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA738F61267E46E000C5B3FE /* faceid-authenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "faceid-authenticationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA738F65267E46E000C5B3FE /* alert_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert_appTests.swift; sourceTree = "<group>"; };
 		BA738F67267E46E000C5B3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA738F6C267E46E000C5B3FE /* alert-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alert-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA738F6C267E46E000C5B3FE /* faceid-authenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "faceid-authenticationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA738F70267E46E000C5B3FE /* alert_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert_appUITests.swift; sourceTree = "<group>"; };
 		BA738F72267E46E000C5B3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		BA738F42267E46DD00C5B3FE = {
 			isa = PBXGroup;
 			children = (
-				BA738F4D267E46DD00C5B3FE /* alert-app */,
-				BA738F64267E46E000C5B3FE /* alert-appTests */,
-				BA738F6F267E46E000C5B3FE /* alert-appUITests */,
+				BA738F4D267E46DD00C5B3FE /* faceid-authentication */,
+				BA738F64267E46E000C5B3FE /* faceid-authenticationTests */,
+				BA738F6F267E46E000C5B3FE /* faceid-authenticationUITests */,
 				BA738F4C267E46DD00C5B3FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		BA738F4C267E46DD00C5B3FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA738F4B267E46DD00C5B3FE /* alert-app.app */,
-				BA738F61267E46E000C5B3FE /* alert-appTests.xctest */,
-				BA738F6C267E46E000C5B3FE /* alert-appUITests.xctest */,
+				BA738F4B267E46DD00C5B3FE /* faceid-authentication.app */,
+				BA738F61267E46E000C5B3FE /* faceid-authenticationTests.xctest */,
+				BA738F6C267E46E000C5B3FE /* faceid-authenticationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA738F4D267E46DD00C5B3FE /* alert-app */ = {
+		BA738F4D267E46DD00C5B3FE /* faceid-authentication */ = {
 			isa = PBXGroup;
 			children = (
 				BA738F4E267E46DD00C5B3FE /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				BA738F59267E46E000C5B3FE /* LaunchScreen.storyboard */,
 				BA738F5C267E46E000C5B3FE /* Info.plist */,
 			);
-			path = "alert-app";
+			path = "faceid-authentication";
 			sourceTree = "<group>";
 		};
-		BA738F64267E46E000C5B3FE /* alert-appTests */ = {
+		BA738F64267E46E000C5B3FE /* faceid-authenticationTests */ = {
 			isa = PBXGroup;
 			children = (
 				BA738F65267E46E000C5B3FE /* alert_appTests.swift */,
 				BA738F67267E46E000C5B3FE /* Info.plist */,
 			);
-			path = "alert-appTests";
+			path = "faceid-authenticationTests";
 			sourceTree = "<group>";
 		};
-		BA738F6F267E46E000C5B3FE /* alert-appUITests */ = {
+		BA738F6F267E46E000C5B3FE /* faceid-authenticationUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BA738F70267E46E000C5B3FE /* alert_appUITests.swift */,
 				BA738F72267E46E000C5B3FE /* Info.plist */,
 			);
-			path = "alert-appUITests";
+			path = "faceid-authenticationUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA738F4A267E46DD00C5B3FE /* alert-app */ = {
+		BA738F4A267E46DD00C5B3FE /* faceid-authentication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA738F75267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-app" */;
+			buildConfigurationList = BA738F75267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authentication" */;
 			buildPhases = (
 				BA738F47267E46DD00C5B3FE /* Sources */,
 				BA738F48267E46DD00C5B3FE /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "alert-app";
-			productName = "alert-app";
-			productReference = BA738F4B267E46DD00C5B3FE /* alert-app.app */;
+			name = "faceid-authentication";
+			productName = "faceid-authentication";
+			productReference = BA738F4B267E46DD00C5B3FE /* faceid-authentication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA738F60267E46E000C5B3FE /* alert-appTests */ = {
+		BA738F60267E46E000C5B3FE /* faceid-authenticationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA738F78267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-appTests" */;
+			buildConfigurationList = BA738F78267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authenticationTests" */;
 			buildPhases = (
 				BA738F5D267E46E000C5B3FE /* Sources */,
 				BA738F5E267E46E000C5B3FE /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				BA738F63267E46E000C5B3FE /* PBXTargetDependency */,
 			);
-			name = "alert-appTests";
-			productName = "alert-appTests";
-			productReference = BA738F61267E46E000C5B3FE /* alert-appTests.xctest */;
+			name = "faceid-authenticationTests";
+			productName = "faceid-authenticationTests";
+			productReference = BA738F61267E46E000C5B3FE /* faceid-authenticationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA738F6B267E46E000C5B3FE /* alert-appUITests */ = {
+		BA738F6B267E46E000C5B3FE /* faceid-authenticationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA738F7B267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-appUITests" */;
+			buildConfigurationList = BA738F7B267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authenticationUITests" */;
 			buildPhases = (
 				BA738F68267E46E000C5B3FE /* Sources */,
 				BA738F69267E46E000C5B3FE /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				BA738F6E267E46E000C5B3FE /* PBXTargetDependency */,
 			);
-			name = "alert-appUITests";
-			productName = "alert-appUITests";
-			productReference = BA738F6C267E46E000C5B3FE /* alert-appUITests.xctest */;
+			name = "faceid-authenticationUITests";
+			productName = "faceid-authenticationUITests";
+			productReference = BA738F6C267E46E000C5B3FE /* faceid-authenticationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA738F4A267E46DD00C5B3FE /* alert-app */,
-				BA738F60267E46E000C5B3FE /* alert-appTests */,
-				BA738F6B267E46E000C5B3FE /* alert-appUITests */,
+				BA738F4A267E46DD00C5B3FE /* faceid-authentication */,
+				BA738F60267E46E000C5B3FE /* faceid-authenticationTests */,
+				BA738F6B267E46E000C5B3FE /* faceid-authenticationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		BA738F63267E46E000C5B3FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA738F4A267E46DD00C5B3FE /* alert-app */;
+			target = BA738F4A267E46DD00C5B3FE /* faceid-authentication */;
 			targetProxy = BA738F62267E46E000C5B3FE /* PBXContainerItemProxy */;
 		};
 		BA738F6E267E46E000C5B3FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA738F4A267E46DD00C5B3FE /* alert-app */;
+			target = BA738F4A267E46DD00C5B3FE /* faceid-authentication */;
 			targetProxy = BA738F6D267E46E000C5B3FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XLCLV84RA;
-				INFOPLIST_FILE = "alert-app/Info.plist";
+				INFOPLIST_FILE = "faceid-authentication/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XLCLV84RA;
-				INFOPLIST_FILE = "alert-app/Info.plist";
+				INFOPLIST_FILE = "faceid-authentication/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,18 +478,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8264YTM86;
-				INFOPLIST_FILE = "alert-appTests/Info.plist";
+				INFOPLIST_FILE = "faceid-authenticationTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authenticationTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alert-app.app/alert-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceid-authentication.app/faceid-authentication";
 			};
 			name = Debug;
 		};
@@ -500,18 +500,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8264YTM86;
-				INFOPLIST_FILE = "alert-appTests/Info.plist";
+				INFOPLIST_FILE = "faceid-authenticationTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authenticationTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alert-app.app/alert-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceid-authentication.app/faceid-authentication";
 			};
 			name = Release;
 		};
@@ -521,17 +521,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8264YTM86;
-				INFOPLIST_FILE = "alert-appUITests/Info.plist";
+				INFOPLIST_FILE = "faceid-authenticationUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authenticationUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "alert-app";
+				TEST_TARGET_NAME = "faceid-authentication";
 			};
 			name = Debug;
 		};
@@ -541,17 +541,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8264YTM86;
-				INFOPLIST_FILE = "alert-appUITests/Info.plist";
+				INFOPLIST_FILE = "faceid-authenticationUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authenticationUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "alert-app";
+				TEST_TARGET_NAME = "faceid-authentication";
 			};
 			name = Release;
 		};
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA738F75267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-app" */ = {
+		BA738F75267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA738F76267E46E000C5B3FE /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA738F78267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-appTests" */ = {
+		BA738F78267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authenticationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA738F79267E46E000C5B3FE /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA738F7B267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "alert-appUITests" */ = {
+		BA738F7B267E46E000C5B3FE /* Build configuration list for PBXNativeTarget "faceid-authenticationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA738F7C267E46E000C5B3FE /* Debug */,
