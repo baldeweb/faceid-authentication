@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA738F46267E46DD00C5B3FE /* Build configuration list for PBXProject "alert-app" */;
+			buildConfigurationList = BA738F46267E46DD00C5B3FE /* Build configuration list for PBXProject "faceid-authentication" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -437,13 +437,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K8264YTM86;
+				DEVELOPMENT_TEAM = 4XLCLV84RA;
 				INFOPLIST_FILE = "alert-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authentication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +457,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K8264YTM86;
+				DEVELOPMENT_TEAM = 4XLCLV84RA;
 				INFOPLIST_FILE = "alert-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.alert-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.wallace.faceid-authentication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA738F46267E46DD00C5B3FE /* Build configuration list for PBXProject "alert-app" */ = {
+		BA738F46267E46DD00C5B3FE /* Build configuration list for PBXProject "faceid-authentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA738F73267E46E000C5B3FE /* Debug */,
